@@ -68,6 +68,7 @@ SINGULARS = [
     (r"(?i)(d)iagno(sis|ses)$", r"\1iagnosis"),
     (r"(?i)(b)a(sis|ses)$", r"\1asis"),
     (r"(?i)(a)naly(sis|ses)$", r"\1nalysis"),
+    (r"(?i)(pasta)$", r'\1'),
     (r"(?i)([ti])a$", r'\1um'),
     (r"(?i)(n)ews$", r'\1ews'),
     (r"(?i)(ss)$", r'\1'),
